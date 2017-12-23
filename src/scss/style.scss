@@ -1,0 +1,214 @@
+// Navbar default settings
+
+.logo {
+  margin: 15px auto;
+  width: 170px;
+}
+
+.logoContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.socialMedia {
+  width: 25px;
+}
+
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: black;
+  border: 10px !important;
+  border-radius: 0 !important;
+  background-color: #FFFFFF !important;
+  margin-top: 5px;
+}
+
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.floatRight {
+  display: inline-block;
+  float: right;
+}
+
+.collapse {
+  margin: auto;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+li {
+  padding-right: 2px;
+  padding-left: 2px;
+  list-style-type: none;
+}
+
+a {
+  color: black !important;
+  background-color: white !important;
+}
+
+.aNav:hover {
+  // border-bottom: 1px solid black;
+  font-weight:600;
+}
+
+
+// Home Page information
+
+.homeImage {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../images/laroyaImg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+  margin-top: 0px;
+  padding-bottom: 0;
+  padding-top: 0;
+  border: 30px white solid;
+}
+
+// Project Page Summary
+
+.projectsUl {
+  list-style: none;
+}
+
+.projectsSummaryContainer {
+  width: 99%;
+}
+
+.projectSummaryImages {
+  width: 30%;
+  height: 270px;
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+// Individual Project Page
+
+.individualProjectContainer {
+  height:  90vh;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.individualProject {
+  width: 100px;
+  margin: 5px auto;
+}
+
+.projectImage {
+  height: 60vh;
+  margin: 5px auto;
+}
+
+.scroller {
+  width: 100px;
+  display: block;
+  margin: 5px auto;
+}
+
+.arrow {
+  font-size: 22px;
+  display: inline;
+}
+
+.imageNumber {
+  font-family: 'Raleway', sans-serif;
+  display: inline;
+  font-size: 16px;
+  margin: 5px 5px;
+}
+
+.projectDescription {
+  width: 50%;
+  margin: 5px auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+// Process Page Summary
+
+.processContainer {
+  width: 90%;
+  margin: 50px auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+
+  h1 {
+    font-weight: 900;
+  }
+}
+
+.infoProcessContainer {
+  width: 90%;
+  margin-top: 35px;
+}
+
+.processListItems {
+  width: 40%;
+  float: left;
+  margin-left: 0;
+}
+
+.processNeeds {
+  margin-left: 0;
+  padding-left: 0;
+
+
+  li {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 17px;
+    font-size: 17px;
+  }
+}
+
+.processInfo {
+  width: 60%;
+  float: right;
+
+  h4 {
+    font-size: 15px;
+    line-height: normal;
+  }
+}
+
+// About Us Page
+
+.aboutUsContainer {
+  width: 90%;
+  margin-top: 35px;
+}
+
+.imageReema {
+  width: 40%;
+  float: left;
+
+  img {
+    width: 100%;
+    padding-top:15px;
+  }
+
+}
+
+.aboutUsText {
+  width: 56%;
+  float: right;
+
+  h6 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    padding-top: 0;
+  }
+}
