@@ -2,7 +2,7 @@ const App = App || {};
 
 App.init = function() {
   this.apiUrl = `${window.location.origin}/api`;
-  console.log('loaded!!!');
+  console.log('loaded!!');
   this.$main  = $('main');
   App.showHomePage();
   $('.projectsLink').on('click', this.showProjectsSummary.bind(this));
