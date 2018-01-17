@@ -7,6 +7,7 @@ const expressJWT     = require('express-jwt');
 const User           = require('./models/user');
 const jwt            = require('jsonwebtoken');
 
+
 const app            = express();
 const config         = require('./config/config');
 const apiRouter      = require('./config/apiRoutes');
@@ -26,9 +27,10 @@ app.use('/api', expressJWT({ secret: config.secret })
       { url: '/api/register', methods: ['POST'] },
       { url: '/api/login',    methods: ['POST'] },
       { url: '/api/users',    methods: ['GET'] },
+      { url: '/api/projects/:id',    methods: ['GET'] },
+      { url: '/api/projects/:id',    methods: ['PUT'] },
       { url: '/api/projects',    methods: ['GET'] },
-      { url: '/api/projects',    methods: ['POST'] },
-      { url: '/api/projects/:id',    methods: ['PUT'] }
+      { url: '/api/projects',    methods: ['POST'] }
     ]
   }));
 app.use(jwtErrorHandler);
